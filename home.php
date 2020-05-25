@@ -20,8 +20,11 @@ $decimal = mt_rand(0,9999999999);
 <body>
 <div class="center"><img src="topo.png"/></div><br />
 <div id="ola"></div>
+<img src="under.gif"/>
 <div class="demo">Diga olá para a comunidade Full Stack Deno do Brazil! <br />Você é a pessoa visitante de número <?= $visita . '.' . $decimal ?></div>
 <div id="deno"><marquee>Clique para ver a documentação</marquee></div>
+<!-- Se puder contribuir ou dar uma estrela :) https://github.com/pokemaobr/fulldenobrazil.online -->
+<audio src="mtrex.wav" autoplay>
 <script>$x = "2" - "a"; alert('O site foi criado em: ' + $x.toString());</script>
 <script>var nome = prompt('Qual seu nome?'); $('#ola').text('Olá ' + nome)</script>
 <script>$("#deno").on('click', ()=>{ $("#deno").append('<img src="dino.png"/>')})</script>
