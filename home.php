@@ -6,7 +6,18 @@ $decimal = mt_rand(0,9999999999);
 ?>
 
 <html>
-<head><script
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167412713-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167412713-1');
+    </script>
+    
+    <script
             src="https://code.jquery.com/jquery-1.12.4.js"
             integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
             crossorigin="anonymous">
@@ -21,8 +32,9 @@ $decimal = mt_rand(0,9999999999);
 <div class="center"><img src="topo.png"/></div><br />
 <div id="ola"></div>
 <img src="under.gif"/>
-<div class="demo">Diga olá para a comunidade Full Stack Deno do Brazil! <br />Você é a pessoa visitante de número <?= $visita . '.' . $decimal ?></div>
+<div class="demo">Diga olá para a comunidade Full Stack Deno do Brazil! <br />Você é a pessoa visitante de número <?= $visita . '.' . $decimal ?><br/><br/> Pokemaobr & <a href="https://twitch.tv/pokemaobr">galera da live.</a> Todos os esquerdos reservados. ©️🥕👍</div>
 <div id="deno"><marquee>Clique para ver a documentação</marquee></div>
+
 <!-- Se puder contribuir ou dar uma estrela :) https://github.com/pokemaobr/fulldenobrazil.online -->
 <audio src="mtrex.wav" autoplay>
 <script>$x = "2" - "a"; alert('O site foi criado em: ' + $x.toString());</script>
@@ -35,4 +47,6 @@ titleScroller(text.substr(1) + text.substr(0, 1));
 }, 500);
 }(" Comunidade de FullStacks Deno do Brazil "));</script>
 </body>
+
+<footer></footer>
 </html>
