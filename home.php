@@ -32,7 +32,7 @@ $decimal = mt_rand(0,9999999999);
 <div class="center"><img src="topo.png"/></div><br />
 <div id="ola"></div>
 <img src="under.gif"/>
-<div class="demo">Diga olá para a comunidade Full Stack Deno do Brazil! <br />Você é a pessoa visitante de número <?= $visita . '.' . $decimal ?><br/><br/> Nome by: Pirocoptero2020 & coding by:<a href="https://twitter.com/pokemaobr" style="color: #ffffff" target="_blank"> Pokemaobr</a> & <a href="https://twitch.tv/pokemaobr" style="color: #ffffff" target="_blank">galera da live.</a> Todos os esquerdos reservados. ©️🥕👍</div>
+<div class="demo">Diga olá para a comunidade Full Stack Deno do Brazil! <br />Você é a pessoa visitante de número <?= $visita . '.' . $decimal ?><br/><br/> Nome by: Pirocoptero2020 & coding by:<a href="https://twitter.com/pokemaobr" style="color: #ffffff" target="_blank"> Pokemaobr</a> & <a href="https://twitch.tv/pokemaobr" style="color: #ffffff" target="_blank">galera da live.</a> Todos os esquerdos reservados. ©️🥕👍<br><br>console.log("Cheguei até aqui")</div>
 <div id="deno"><marquee>Clique para ver a documentação</marquee></div>
 
 <!-- Se puder contribuir ou dar uma estrela :) https://github.com/pokemaobr/fulldenobrazil.online -->
